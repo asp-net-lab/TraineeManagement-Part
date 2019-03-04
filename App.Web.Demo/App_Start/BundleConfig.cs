@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace App.Web.TraineeManagement
+namespace App.Web.Demo
 {
     public class BundleConfig
     {

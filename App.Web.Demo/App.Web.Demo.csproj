@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2F171AB6-4F3A-43F0-AB69-100FE98CAE1D}</ProjectGuid>
+    <ProjectGuid>{AD99E720-51E4-4FEC-970B-BAF04909C02E}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TraineeManagement</RootNamespace>
-    <AssemblyName>TraineeManagement</AssemblyName>
+    <RootNamespace>App.Web.Demo</RootNamespace>
+    <AssemblyName>TraineeManagement.Web.Demo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -226,9 +226,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52390</DevelopmentServerPort>
+          <DevelopmentServerPort>54486</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52390/</IISUrl>
+          <IISUrl>http://localhost:54486/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
