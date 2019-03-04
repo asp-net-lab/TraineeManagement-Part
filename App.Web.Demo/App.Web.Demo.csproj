@@ -45,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -192,6 +198,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Trainees\Create.cshtml" />
+    <Content Include="Views\Trainees\Delete.cshtml" />
+    <Content Include="Views\Trainees\Details.cshtml" />
+    <Content Include="Views\Trainees\Edit.cshtml" />
+    <Content Include="Views\Trainees\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -209,6 +220,28 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App.BLL\App.BLL.csproj">
+      <Project>{01ed7ea8-f37c-4719-aa45-6226de718330}</Project>
+      <Name>App.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.DAL.Demo\App.DAL.Context.csproj">
+      <Project>{ff829675-10fe-433e-a315-e99e7b0009fa}</Project>
+      <Name>App.DAL.Context</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Web\App.Web.csproj">
+      <Project>{cdc3bb01-79d2-4b85-8fd6-66fffc592139}</Project>
+      <Name>App.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\App.DAL.csproj">
+      <Project>{ed5037c2-5af4-4975-84a0-e08aeb7aa29a}</Project>
+      <Name>App.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\App.Entities.csproj">
+      <Project>{2ed3eba5-b11c-453e-a918-2d1649a5634a}</Project>
+      <Name>App.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

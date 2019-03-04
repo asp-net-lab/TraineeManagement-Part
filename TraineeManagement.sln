@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.BLL", "App.BLL\App.BLL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web.Demo", "App.Web.Demo\App.Web.Demo.csproj", "{AD99E720-51E4-4FEC-970B-BAF04909C02E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.DAL.Demo", "App.DAL.Demo\App.DAL.Demo.csproj", "{FF829675-10FE-433E-A315-E99E7B0009FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.DAL.Context", "App.DAL.Demo\App.DAL.Context.csproj", "{FF829675-10FE-433E-A315-E99E7B0009FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
